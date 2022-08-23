@@ -8,36 +8,38 @@ body {
 
 .logo {
     background-color: black;
-    width: 50vw;
+    width: 100vw;
     color: orange;
+    /* display: flex;
+    justify-content: space-around; */
 }
 
 .logo h1 {
+    width: 35vw;
     padding: 0;
     padding-left: 10%;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-top: 1%;
+}
+
+.logo p {
+    width: 60vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20%;
+    font-size: 1.5rem;
+ 
 }
 
 .landing-page {
-    width: 100vw;
+    margin: 0 auto;
+    width: 65vw;
     display: flex;
     align-items: flex-start;
     background-color: black;
 }
 
-.links {
-    width: 20vw;
-    padding-left: 3%;
-    padding-top: 10%;
-    color: orange;
-}
-
-.links p {
-    font-size: 1.2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-}
 
 .landing-page h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -55,9 +57,14 @@ body {
     background-color: orange;
     position: absolute;
     top: 50%;
-    left: 53%;
+    left: 45%;
     z-index: 1;
     vertical-align: center;
+}
+
+.landing-page .contribute a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -81,4 +88,33 @@ body {
     padding-top: 25%;
     width: 100%;
 
+}
+
+.links {
+    width: 90vw;
+    height: 100vh;
+    padding-left: 3%;
+    padding-top: 10%;
+    color: orange;
+}
+
+.links h2 {
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.links p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.links a {
+    text-decoration: none;
+    color: orange;
 }
