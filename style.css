@@ -3,32 +3,74 @@ body {
     padding: 0;
     font-size: 62.5;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #edede4;
+}
+
+@font-face {
+    font-family: artivistLogo;
+    src: url(assets/TAN-NIMBUS/TAN-NIMBUS.woff);
 }
 
 .logo {
-    background-color: black;
+    background-color: #EDEDE4;
     width: 100vw;
-    color: orange;
-    /* display: flex;
-    justify-content: space-around; */
+    height: 5.5em;
+    color: rgb(52, 69, 52);
+    border: 2px solid red;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo h1 {
-    width: 35vw;
-    padding: 0;
-    padding-left: 10%;
+    width: 40vw;
+    /*padding: 0;
+    padding-left: 10vw;*/
+    padding-top: 2vh;
+    height: 5rem;
     font-size: 4rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: artivistLogo;
     margin: 0;
-    margin-top: 1%;
+    /*position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+    border: 1px solid blue;
+}
+
+.logo nav {
+    border: 1px solid black;
+    width: 40vw;  
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo button {
+    color: rgb(52, 69, 52);
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #F27C69;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 2.5rem;
+    margin: 1rem;
+    /*position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+
 }
 
 .logo p {
     width: 60vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
     padding-left: 20%;
     font-size: 1.5rem;
+    color: #F27C69;
  
 }
 
@@ -42,7 +84,7 @@ body {
 
 
 .landing-page h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Dosis', sans-serif;
     text-align: center;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -54,7 +96,7 @@ body {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    background-color: orange;
+    background-color: #F27C69;
     position: absolute;
     top: 50%;
     left: 45%;
