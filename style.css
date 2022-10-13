@@ -1,9 +1,17 @@
+
+
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
     font-size: 62.5;
     box-sizing: border-box;
-    background-color: #edede4;
+    background-color:red;
 }
 
 @font-face {
@@ -11,42 +19,39 @@ body {
     src: url(assets/TAN-NIMBUS/TAN-NIMBUS.woff);
 }
 
+.intro {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F1F1EB;
+}
+
 .logo {
     background-color: #EDEDE4;
-    width: 100vw;
-    height: 5.5em;
+    width: 100%;
+    height: 20%;
     color: rgb(52, 69, 52);
     border: 2px solid red;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
 }
 
 .logo h1 {
-    width: 40vw;
-    /*padding: 0;
-    padding-left: 10vw;*/
+    /* width: 40vw; */
     padding-top: 2vh;
     height: 5rem;
     font-size: 4rem;
     font-family: artivistLogo;
     margin: 0;
-    /*position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);*/
     border: 1px solid blue;
 }
 
 .logo nav {
     border: 1px solid black;
-    width: 40vw;  
+    /* width: 40vw;   */
     position: relative;
     display: flex;
     justify-content: space-around;
 }
 
-.logo button {
+button {
     color: rgb(52, 69, 52);
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
@@ -57,115 +62,262 @@ body {
     width: 200px;
     height: 2.5rem;
     margin: 1rem;
-    /*position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);*/
-
 }
 
-.logo p {
-    width: 60vw;
-    font-family: 'Dosis', sans-serif;
-    font-weight: 600;
-    padding-left: 20%;
-    font-size: 2rem;
-    color: #F27C69;
- 
-}
-
-.first-section p {
-    font-family: 'Dosis', sans-serif;
-    color: rgb(52, 69, 52);
-    font-size: 1.3rem;
-    width: 90vw;
-    border: 1px solid green;
-    margin: 20px auto;
-}
-
-.landing-page {
+.lp {
     margin: 0 auto;
-    width: 65vw;
+    width: 100%;
+    height: 80%;
     display: flex;
     align-items: flex-start;
-    background-color: black;
-}
-
-
-.landing-page h2 {
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    padding-top: 20%;
-    padding-bottom: 20%;
-     
-}
-
-.landing-page .contribute {
-    border: 1px solid transparent;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    background-color: #F27C69;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    z-index: 1;
-    vertical-align: center;
-}
-
-.landing-page .contribute a {
-    text-decoration: none;
-    color: black;
-}
-
-
-.lp-artist {
-    width: 38vw;
-    height: 80vh;
-}
-
-.lp-artist img {
-    width: 90%;
-}
-
-.lp-cause {
+    background-color: rgba(101, 123, 111, 0.71);
     border: 1px solid black;
-    width: 38vw;
-    height: 80vh;
-    background-color: black;
 }
 
-.lp-cause img {
-    padding-top: 25%;
-    width: 100%;
-
+.lp h1 {
+    color: rgba(241, 241, 235, 1);
+border: 1px solid red;
 }
 
-.links {
+.lp h2 {
+    font-family: 'Dosis', sans-serif;
+    color: rgba(241, 241, 235, 1);
+    text-align: left;
+    border: 1px solid red;
+}
+
+.lp button {
+    border: 1px solid blue;
+}
+
+.lp img {
+    border: 3px solid green;
+}
+
+
+.second-section {
+    height: 90vh;
     width: 90vw;
+    background-color: rgba(241, 241, 235, 1);
+    border: 1px red solid;
+}
+
+.second-section h2 {
+    color: rgba(101, 123, 111, 1);
+    border: solid blue 1px;
+
+}
+
+.second-section p {
+    color: rgba(101, 123, 111, 1);
+    border: solid black 1px;
+}
+
+.second-section .row {
+    border: 1px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.who {
+    height: 90vh;
+    width: 100vw;
+    background: rgba(237, 237, 228, 1);
+    border: 1px yellow solid;
+}
+
+.who h1 {
+    color: rgba(101, 123, 111, 1);
+    border: 1px blue solid;
+}
+
+.who h6 {
+    color: #F27C69;
+    border: 1px solid green;
+}
+
+.who p {
+    color: rgba(101, 123, 111, 1);
+    border: 1px solid purple;
+}
+
+.who img {
+    border: 1px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+.stakeholders {
     height: 100vh;
-    padding-left: 3%;
-    padding-top: 10%;
-    color: orange;
+    width: 100vw;
+    background-color: rgba(101, 123, 111, 0.4);
 }
 
-.links h2 {
-    color: orange;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20px auto;
-    width: 50%;
-    text-align: center;
+.stakeholders h3 {
+    color: #F27C69;
 }
 
-.links p {
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 50%;
-    margin: 20px auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(237, 237, 228, 1);
 }
 
-.links a {
-    text-decoration: none;
-    color: orange;
+.why h1 {
+    color: rgba(101, 123, 111, 0.8);
+}
+
+.why h2 {
+    color: #F27C69;
+}
+
+.why ul {
+    color: rgba(101, 123, 111, 0.85);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.join {
+    height: 50vh;
+    width: 100vw;
+    background: rgba(237, 237, 228, 1);
+}
+
+.join h3 {
+    color: rgba(101, 123, 111, 0.8);
+}
+
+.join p {
+    color: rgba(101, 123, 111, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fast {
+    height: 50vh;
+    width: 100vw;
+    background-color: #F27C69;
+}
+
+.fast h3 {
+    color: rgba(236, 238, 146, 1);
+
+}
+
+.fast p {
+    color: rgba(80, 80, 78, 1);
+
+}
+
+
+
+
+
+
+
+
+
+.powered {
+    height: 50vh;
+    width: 100vw;
+    background: rgba(237, 237, 228, 1);
+
+}
+
+.powered h6 {
+    color: rgba(101, 123, 111, 1);
+
+}
+
+.powered p {
+    color: rgba(101, 123, 111, 1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 60vh;
+    width: 100vw;
+    background: rgba(101, 123, 111, 0.71);
+
+}
+
+.footer h6 {
+    color: rgba(236, 238, 146, 1);
+
+}
+
+.footer ul {
+    color: white;
 }
