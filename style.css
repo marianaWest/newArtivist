@@ -1,17 +1,9 @@
-
-
-
-
-
-
-
 body {
     margin: 0;
     padding: 0;
     width: 100vw;
     font-size: 62.5;
     box-sizing: border-box;
-    background-color:red;
 }
 
 @font-face {
@@ -29,33 +21,26 @@ body {
     background-color: #EDEDE4;
     width: 100%;
     height: 20%;
-    color: rgb(52, 69, 52);
-    border: 2px solid red;
+    color: rgba(101, 123, 111, 1);
 }
 
 .logo h1 {
-    /* width: 40vw; */
-    padding-top: 2vh;
     height: 5rem;
     font-size: 4rem;
     font-family: artivistLogo;
-    margin: 0;
-    border: 1px solid blue;
+    padding-top: 0;
 }
 
 .logo nav {
-    border: 1px solid black;
-    /* width: 40vw;   */
-    position: relative;
-    display: flex;
-    justify-content: space-around;
+    height: 100%;
+    padding-top: 0;
 }
 
 button {
-    color: rgb(52, 69, 52);
+    color: rgba(237, 237, 228, 1);
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #F27C69;
     border: none;
     border-radius: 10px;
@@ -75,23 +60,24 @@ button {
 }
 
 .lp h1 {
+    font-family: 'Lexend Deca', sans-serif;
     color: rgba(241, 241, 235, 1);
-border: 1px solid red;
 }
 
 .lp h2 {
     font-family: 'Dosis', sans-serif;
     color: rgba(241, 241, 235, 1);
     text-align: left;
-    border: 1px solid red;
+    font-size: 1.5rem;
 }
 
 .lp button {
     border: 1px solid blue;
+
 }
 
 .lp img {
-    border: 3px solid green;
+    border-radius: 20px;
 }
 
 
@@ -171,9 +157,10 @@ border: 1px solid red;
 
 
 .stakeholders {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-color: rgba(101, 123, 111, 0.4);
+    border: 1px solid yellow;
 }
 
 .stakeholders h3 {
@@ -197,7 +184,7 @@ border: 1px solid red;
 .why {
     height: 100vh;
     width: 100vw;
-    background: rgba(237, 237, 228, 1);
+    background: rgba(237, 237, 228, 0.5);
 }
 
 .why h1 {
@@ -224,9 +211,13 @@ border: 1px solid red;
 
 
 .join {
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     background: rgba(237, 237, 228, 1);
+}
+
+.join img {
+    max-width: 300px;
 }
 
 .join h3 {
@@ -310,7 +301,14 @@ border: 1px solid red;
     height: 60vh;
     width: 100vw;
     background: rgba(101, 123, 111, 0.71);
+}
 
+.footer h1 {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-family: artivistLogo;
+    color: rgba(241, 241, 235, 1);
+    border: 1px solid blue;
 }
 
 .footer h6 {
