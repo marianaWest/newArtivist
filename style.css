@@ -138,12 +138,8 @@ button {
 }
 
 .who img {
-box-shadow: inset white;
+box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
 }
-
-
-
-
 
 
 
