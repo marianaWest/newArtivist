@@ -1,14 +1,14 @@
+@font-face {
+    font-family: artivistLogo;
+    src: url(assets/TAN-NIMBUS/TAN-NIMBUS.woff);
+}
+
 body {
     margin: 0;
     padding: 0;
     width: 100vw;
     font-size: 62.5;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: artivistLogo;
-    src: url(assets/TAN-NIMBUS/TAN-NIMBUS.woff);
 }
 
 .intro {
@@ -138,11 +138,8 @@ button {
 }
 
 .who img {
+box-shadow: inset white;
 }
-
-
-
-
 
 
 
@@ -265,14 +262,13 @@ button {
 
 .powered {
     height: 50vh;
-    width: 100vw;
     background: rgba(237, 237, 228, 1);
 
 }
 
-.powered h6 {
-    color: rgba(101, 123, 111, 1);
-
+.powered h5 {
+    color: #F27C69;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .powered p {
@@ -297,7 +293,6 @@ button {
 
 .footer {
     height: 60vh;
-    width: 100vw;
     background: rgba(101, 123, 111, 0.71);
 }
 
@@ -306,7 +301,6 @@ button {
     font-size: 2.5rem;
     font-family: artivistLogo;
     color: rgba(241, 241, 235, 1);
-    border: 1px solid blue;
 }
 
 .footer h6 {
