@@ -4,7 +4,16 @@
 }
 
 html, body {
-    width: 100%;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.row {
+    padding: 0 !important;
 }
 
 .logo {
@@ -56,13 +65,7 @@ button {
     border-radius: 20px;
 }
 
-.lp-image {
-    max-height: 50%;
-}
-
 .second-section {
-    height: 90vh;
-    /* width: 90vw; */
     background-color: rgba(241, 241, 235, 1);
 }
 
@@ -75,32 +78,11 @@ button {
     font-family: 'Dosis', sans-serif;
 }
 
-.second-section .row {
-}
-
 .second-section img {
     border-radius: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .who {
-    height: 90vh;
-    /* width: 100vw; */
     background: rgba(237, 237, 228, 1);
 }
 
@@ -119,15 +101,7 @@ button {
     color: rgba(101, 123, 111, 1);
 }
 
-.who img {
-box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
-}
-
-
-
 .stakeholders {
-    height: 70vh;
-    /* width: 100vw; */
     background-color: rgba(101, 123, 111, 0.4);
 }
 
@@ -140,21 +114,7 @@ box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
     font-family: 'Dosis', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .why {
-    height: 100vh;
-    /* width: 100vw; */ 
     background: rgba(237, 237, 228, 0.5);
 }
 
@@ -174,25 +134,10 @@ box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
     font-size: 1.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .join {
-    height: 60vh;
     background: rgba(237, 237, 228, 1);
 }
 
-.join img {
-    max-width: 300px;
-}
 
 .join h3 {
     color: rgba(101, 123, 111, 0.8);
@@ -202,21 +147,7 @@ box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
     color: rgba(101, 123, 111, 0.8);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fast {
-    height: 40vh;
     background-color: #F27C69;
 }
 
@@ -227,19 +158,9 @@ box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
 
 .fast p {
     color: rgba(80, 80, 78, 1);
-
 }
 
-
-
-
-
-
-
-
-
 .powered {
-    height: 50vh;
     background: rgba(237, 237, 228, 1);
 
 }
@@ -250,27 +171,10 @@ box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
 }
 
 .powered p {
-    color: rgba(101, 123, 111, 1);
-    
+    color: rgba(101, 123, 111, 1);  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
-    height: 60vh;
     background: rgba(101, 123, 111, 0.71);
 }
 
@@ -283,7 +187,6 @@ box-shadow: 50px 50px 50px 50px inset rgba(237, 237, 228, 1);
 
 .footer h6 {
     color: rgba(236, 238, 146, 1);
-
 }
 
 .footer ul {
