@@ -16,6 +16,10 @@ html, body {
     padding: 0 !important;
 }
 
+.hidden {
+    display: none;
+}
+
 .logo {
     background-color: #EDEDE4;
     color: rgba(101, 123, 111, 1);
