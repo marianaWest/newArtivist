@@ -109,6 +109,10 @@ button {
     background-color: rgba(101, 123, 111, 0.4);
 }
 
+.stakeholders img {
+    border-radius: 10px;
+}
+
 .stakeholders h3 {
     color: #F27C69;
 }
