@@ -13,7 +13,7 @@ html, body {
 }
 
 .row {
-    padding: 0 !important;
+    /* padding: 0 !important; */
 }
 
 .hidden {
@@ -22,14 +22,12 @@ html, body {
 
 .logo {
     background-color: #EDEDE4;
-    color: rgba(101, 123, 111, 1);
 }
 
 .logo h1 {
-    height: 5rem;
-    font-size: 4rem;
     font-family: artivistLogo;
     padding-top: 0;
+    color: rgba(101, 123, 111, 1);
 }
 
 button {
@@ -197,6 +195,7 @@ button {
     color: rgba(236, 238, 146, 1);
 }
 
-.footer ul {
+.footer p {
     color: white;
+    font-size: 1.2rem;
 }
