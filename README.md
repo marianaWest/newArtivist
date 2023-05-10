@@ -1,4 +1,5 @@
 # Artivist
+<img width="917" alt="Artivist" src="https://github.com/marianaWest/newArtivist/assets/97693233/79d2e366-18c0-47e8-bf42-9f53041a4301">  
 
 https://artivistdao.org/  
 
